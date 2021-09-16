@@ -26,8 +26,12 @@ public class XpathAxis {
 		//Facebook-SignUpPage---->(firstname to  Click Custom)
 		WebElement custom = driver.findElement(By.xpath("//input[@name='firstname']/ancestor::div/following-sibling::div/child::span/child::span/child::label[text()='Custom']"));
 		custom.click();
-		System.out.println("Chennai");
-		System.out.println("Pondicherry");
+
+System.out.println("Chennai");
+System.out.println("Pondicherry");
+		System.out.println("Bala");
+		System.out.println("Guru");
+
 		
 		// Other Xpath
 		//By.id
